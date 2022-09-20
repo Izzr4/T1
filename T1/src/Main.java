@@ -10,10 +10,10 @@ public class Main
         System.out.println("===== Program Menghitung Luas Permukaan / Volume Tabung ====");
         System.out.println("Mau menghitung apa?\n1. Luas\n2. Volumne");
         System.out.print("Pilihan Anda: ");
-        pilihan = input.nextByte();
+        pilihan = input.nextByte(); //Mengambil inputan user
         System.out.println("=================================\n");
 
-        if (pilihan == 1)
+        if (pilihan == 1)   //input user = 1
         {
             System.out.println("Menghitung Luas Tabung ");
             System.out.print("Masukkan Jari-jari\t: ");
@@ -29,7 +29,7 @@ public class Main
             System.out.println("===== Program Selesai =====");
 
 
-        }else if (pilihan == 2)
+        }else if (pilihan == 2) //input user = 2
 
         {
             System.out.print("Masukkan Jari-jari\t: ");
@@ -45,7 +45,7 @@ public class Main
             System.out.println("===== Program Selesai =====");
 
         }
-        else {
+        else { //Inputan user tidak 1 ataupun 2
             System.out.println("PILIHAN CUMA ADA 2!");
         }
     }
